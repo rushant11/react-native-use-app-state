@@ -1,5 +1,5 @@
 {
-  "name": "react-native-use-app-state",
+  "name": "@rushant11/react-native-use-app-state",
   "version": "1.0.0",
   "description": "A tiny hook to make React Native AppState usage simple and reliable.",
   "main": "dist/index.js",
