@@ -1,6 +1,6 @@
 {
   "name": "@rushant11/react-native-use-app-state",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A tiny hook to make React Native AppState usage simple and reliable.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "build": "tsc",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "postinstall": "node postinstall.js"
   },
   "keywords": [
     "react-native",

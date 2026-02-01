@@ -1,19 +1,11 @@
 # react-native-use-app-state
 
-A tiny, reliable hook for managing React Native AppState. Handles foreground/background transitions and state changes with ease.
-
-## Installation
-
-```sh
-npm install react-native-use-app-state
+npm install @rushant11/react-native-use-app-state
 # or
-yarn add react-native-use-app-state
-```
-
-## Usage
+yarn add @rushant11/react-native-use-app-state
 
 ```typescript
-import { useAppState } from 'react-native-use-app-state';
+import { useAppState } from '@rushant11/react-native-use-app-state';
 
 const App = () => {
   const currentStatus = useAppState({
