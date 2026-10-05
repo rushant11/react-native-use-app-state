@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "prepare": "npm run build",
     "postinstall": "node postinstall.js"
   },
